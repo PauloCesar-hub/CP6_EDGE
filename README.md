@@ -19,19 +19,6 @@ O Node-RED consome esses dados e exibe em um **dashboard interativo**, permitind
 
 ---
 
-## 🧩 Arquitetura do Projeto
-
-```mermaid
-graph TD
-A[ESP32] -->|Publica dados| B((Broker MQTT HiveMQ))
-B -->|Recebe mensagens| C[Node-RED]
-C --> D[Dashboard Web]
-⚙️ Componentes Utilizados
-Componente	Função	Pino no ESP32
-DHT22	Temperatura e Umidade	D4
-LDR	Luminosidade (entrada analógica)	D35
-LED	Indicador de pouca luz	D2
-
 🔗 Links Importantes
 Descrição	Link
 🌍 Broker MQTT público utilizado	broker.hivemq.com
