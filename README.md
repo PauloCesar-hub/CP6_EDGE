@@ -108,6 +108,7 @@ Sem dados no dashboard	Confira se o Node-RED está conectado ao broker MQTT
 - Gustavo Panham Dourado - (RM:563904)
 - Christian Schunck de Almeida - (RM:563850)
 - Thomas Jeferson Santana Wang - (RM565104)
+  
 💬 Projeto desenvolvido para aprendizado em IoT e Edge Computing
 
 
