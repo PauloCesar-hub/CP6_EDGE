@@ -39,6 +39,9 @@ ESP32
   <img src="tela" width="600" alt="Arquitetura do Projeto">
 </div>
 
+<div align="center">
+  <img src="tela2" width="600" alt="Arquitetura do Projeto">
+</div>
 🧠 Como Funciona
 O ESP32 conecta-se ao Wi-Fi.
 
