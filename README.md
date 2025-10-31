@@ -36,11 +36,11 @@ ESP32
 💡 Dica: se estiver simulando no Wokwi, conecte o LDR entre 3V3 e o pino A2 (com resistor de 10kΩ para o GND).
 ---
 <div align="center">
-  <img src="tela" width="600" alt="Arquitetura do Projeto">
+  <img src="tela.png" width="600" alt="Arquitetura do Projeto">
 </div>
 
 <div align="center">
-  <img src="tela2" width="600" alt="Arquitetura do Projeto">
+  <img src="tela2.png" width="600" alt="Arquitetura do Projeto">
 </div>
 🧠 Como Funciona
 O ESP32 conecta-se ao Wi-Fi.
