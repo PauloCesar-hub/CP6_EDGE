@@ -34,6 +34,7 @@ ESP32
 ├── D2  →  LED indicador
 └── 3V3 e GND → Alimentação dos sensores
 💡 Dica: se estiver simulando no Wokwi, conecte o LDR entre 3V3 e o pino A2 (com resistor de 10kΩ para o GND).
+---
 
 🧠 Como Funciona
 O ESP32 conecta-se ao Wi-Fi.
@@ -49,7 +50,7 @@ planta/umidade
 planta/luminosidade
 
 O Node-RED recebe os dados e exibe no dashboard.
-
+---
 🧰 Passos para Reproduzir o Projeto
 🔹 1. Configurar o ESP32
 Instale a Arduino IDE e adicione o suporte ao ESP32.
@@ -88,23 +89,27 @@ Sensor	Tipo	Unidade	Exemplo
 Temperatura	Gauge + Gráfico	°C	26.5
 Umidade	Gauge + Gráfico	%	55
 Luminosidade	Gauge + Indicador de LED	%	80
-
+---
 🧾 Tópicos MQTT Utilizados
 Tópico	Tipo de Dado	Exemplo
 planta/temperatura	Float	26.5
 planta/umidade	Float	54.2
 planta/luminosidade	Int (0–100)	78
-
+---
 🛠️ Solução de Problemas
 Erro	Possível Solução
 Temperatura/Umidade retornando NaN	Verifique o pino e tipo do DHT (DHT22 ou DHT11)
 Luminosidade sempre 0	Confirme o resistor de 10kΩ e se o LDR está ligado corretamente
 Sem dados no dashboard	Confira se o Node-RED está conectado ao broker MQTT
-
-👨‍💻 Autor
-Paulo César
+---
+👨‍💻 Autores
+- Paulo Cesar de Govea Junior - (RM:566034)
+- Guilherme Vilela Perez - (RM:564422)
+- Gustavo Panham Dourado - (RM:563904)
+- Christian Schunck de Almeida - (RM:563850)
+- Thomas Jeferson Santana Wang - (RM565104)
 💬 Projeto desenvolvido para aprendizado em IoT e Edge Computing
-📧 Contato: (adicione aqui seu e-mail ou GitHub se quiser)
+
 
 🪴 Licença
 Este projeto é de uso educacional e livre para modificações.
